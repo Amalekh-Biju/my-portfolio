@@ -51,3 +51,7 @@ jobs:
     path: # optional, default is dist
     # Specifies the command to run after npm ci for the build
     build_command: # optional, default is npm run build
+
+
+- name: Build Yarn and npm
+  uses: linchpin/action-build-yarn-npm@master
