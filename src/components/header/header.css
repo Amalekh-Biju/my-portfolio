@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    height: 105vh;
+    padding-top: 3.5rem;
     overflow: hidden;
 }
 
@@ -77,7 +77,7 @@ header {
         height: 100vh;
     }
 
-    .header__socials
+    .header__socials,
     .scroll__down{
         display: none;
     }
