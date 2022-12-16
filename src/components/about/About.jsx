@@ -35,10 +35,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing 
-            elit. Velit, nobis! Expedita optio dolore amet ex 
-            facilis perspiciatis quos vitae velit necessitatibus sunt,
-             nihil culpa ab ducimus odit nisi, dolorum possimus!
+          I'm Amalekh Biju. A freelancer who loves to code. My main focus is Cyber Security and Web Development.
+           If you wish to have an awesome-looking website for your personal or business needs, feel free to contact me.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
