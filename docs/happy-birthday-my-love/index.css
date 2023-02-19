@@ -28,7 +28,7 @@ body{
 }
 .l{
   background-color: #1e1934;
-  height:100%;
+  height:fit-content;
 }
 .l img{
    display: block;
