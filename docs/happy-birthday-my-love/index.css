@@ -11,40 +11,39 @@ body{
   background-color: #1e1934;
 
 }
-.main{
-  vertical-align: middle;
-  line-height: normal;
 
-}
 
 .bg_heart{
   height:fit-content;
 }
 .name{
   text-align:center;
-  
 }
 .name h2{
   font-family: 'La Belle Aurore', cursive;
   color: white;
   font-weight:400;
-  font-size:70px;
-
+  font-size:50px;
+  padding-top: 1px;
+  margin:0;
 }
 .name h1{
   font-family: 'Sedgwick Ave Display', cursive;
   font-weight:400;
-  font-size:75px;
+  font-size:50px;
   color: #FFC000;
-  margin-top: 2px;
+  padding-top: 0.5px;
+  margin:0;
 }
 
 img{
    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 0%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  width: 40%;
+  margin-bottom: 0;
+  margin-top:0;
 }
 
 
@@ -73,7 +72,8 @@ img{
 }
 .name{
   text-align:center;
-  width:60%;
+  width:53.5%;
+  height:fit-content;
   margin:0 auto;
   position:absolute;
   top:0;
@@ -83,9 +83,11 @@ img{
 }
 .name p {
     font-family: 'Sacramento';
-    font-size: 66px;
-    color: #fff;;
-
+    font-size: 34px;
+    font-weight: 500;
+    color: #fff;
+    margin:0;
+    padding:3.5px;
 }
 @keyframes heartbeat
 {
@@ -118,22 +120,84 @@ canvas {
   display: block;
   cursor: crosshair;
 }
+
 @media screen and (max-width: 992px) {
    .name{
-    padding-top: 40%;
+    padding-top: 25%;
+  }
+  .name{
+    text-align:center;
+    
+  }
+  .name h2{
+    font-family: 'La Belle Aurore', cursive;
+    color: white;
+    font-weight:400;
+    font-size:70px;
+  
   }
   .name h1{
-  font-family: 'Sedgwick Ave Display', cursive;
-  font-weight:400;
-  font-size:75px;
-  color: #FFC000;
-  margin-top: 2px;
-}
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight:400;
+    font-size:75px;
+    color: #FFC000;
+    margin-top: 2px;
+  }
+  .name{
+    text-align:center;
+    width:65%;
+    margin:0 auto;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9;
+  }
+  .name p {
+      font-family: 'Sacramento';
+      font-size: 66px;
+      color: #fff;;
+  
+  }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .name{
-    padding-top: 40%;
+    padding-top: 25%;
+  }
+  .name{
+    text-align:center;
+    
+  }
+  .name h2{
+    font-family: 'La Belle Aurore', cursive;
+    color: white;
+    font-weight:400;
+    font-size:70px;
+  
+  }
+  .name h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight:400;
+    font-size:75px;
+    color: #FFC000;
+    margin-top: 2px;
+  }
+  .name{
+    text-align:center;
+    width:65%;
+    margin:0 auto;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9;
+  }
+  .name p {
+      font-family: 'Sacramento';
+      font-size: 66px;
+      color: #fff;;
+  
   }
 }
