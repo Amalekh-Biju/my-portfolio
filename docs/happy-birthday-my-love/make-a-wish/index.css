@@ -2,6 +2,64 @@
  body {
 	 background-color: #1e1934;
 }
+
+:root{  
+	--color-bg: #1f1f38;
+	--color-bg-variant: #2c2c6c;
+	--color-primary: #4db5ff;
+	--color-primary-variant: rgba(77, 181, 255, 0.4);
+	--color-white: #fff;
+	--color-light: rgba(255, 255, 255, 0.6);
+  
+	--container-width-lg: 75%;
+	--container-width-md: 86%;
+	--container-width-sm: 90%;
+  
+	--transition: all 400ms ease; 
+  }
+  
+  .btn {
+	width: max-content;
+	display: inline-block;
+	color: var(--color-primary);
+	margin-left: auto;
+	margin-right:auto;
+	padding: 0.75rem 1.2rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	border: 1px solid var(--color-primary);
+	transition: var(--transition);
+  }
+  
+  .btn:hover{
+	background-color: var(--color-white);
+	color: var(--color-bg);
+	border-color: transparent;
+  }
+  
+  .btn-primary{
+	background: var(--color-primary);
+	color: var(--color-bg);
+  }
+  
+  form{
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+  }
+  
+  textarea{
+	width: 100%;
+	border-radius: 0.5rem;
+	width:50%;
+	margin-left: auto;
+	margin-right:auto;
+	background: #1e1934;
+	border: 5px solid  rgba(77, 181, 255, 0.4);
+	resize: none;
+	color: #fff;
+  }
+
  h1 {
 	 position: fixed;
 	 margin: 0 auto;
