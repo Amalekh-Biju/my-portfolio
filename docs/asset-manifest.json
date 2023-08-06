@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.432e628c.css",
-    "main.js": "/static/js/main.9b643ae1.js",
+    "main.js": "/static/js/main.604a5329.js",
+    "static/media/Amalekh-Biju.png": "/static/media/Amalekh-Biju.ec83e814a2276bc6fa7f.png",
+    "static/media/me-about.jpg": "/static/media/me-about.0ddece09cf1a9e187bbc.jpg",
     "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/Amalekh-Biju.png": "/static/media/Amalekh-Biju.cdc3561cf31c5a71a050.png",
-    "static/media/me-about.jpg": "/static/media/me-about.812902db80026061999d.jpg",
     "static/media/portfolio5.png": "/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/static/media/portfolio6.72d1107e313049cf15a7.jpg",
@@ -13,10 +13,10 @@
     "static/media/portfolio4.jpg": "/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/index.html",
     "main.432e628c.css.map": "/static/css/main.432e628c.css.map",
-    "main.9b643ae1.js.map": "/static/js/main.9b643ae1.js.map"
+    "main.604a5329.js.map": "/static/js/main.604a5329.js.map"
   },
   "entrypoints": [
     "static/css/main.432e628c.css",
-    "static/js/main.9b643ae1.js"
+    "static/js/main.604a5329.js"
   ]
 }
